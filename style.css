@@ -1,6 +1,47 @@
-h1 {
-  color: blue;
-  letter-spacing: 0.5rem;
-  border: 2px solid blue;
-  font-family: century gothic;
+:root {
+    --main: #BC6C25;
+    --mainbg: #E9EDC9;
+    --bgcontent: #CCD5AE;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--mainbg);
+}
+
+header {
+    margin: 0;
+    background-color: var(--main);
+    padding: 0.5em;
+}
+
+main {
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+}
+
+nav {
+    
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    color: black;
+    font-size: 20pt;
+    text-decoration: none;
+    font-weight: bold;
 }
